@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { AngularComponent } from './contents/angular/angular.component';
 import { FormsModule } from '@angular/forms';
 import { TwoWayDataBindingComponent } from './contents/two-way-data-binding/two-way-data-binding.component';
+import { WarningAlertsComponent } from './contents/warning-alerts/warning-alerts.component';
 
 
 
@@ -13,6 +14,7 @@ import { TwoWayDataBindingComponent } from './contents/two-way-data-binding/two-
     AppComponent,
     AngularComponent,
     TwoWayDataBindingComponent,
+    WarningAlertsComponent,
 
   ],
   imports: [
