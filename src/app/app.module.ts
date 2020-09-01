@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { AngularComponent } from './contents/angular/angular.component';
 import { FormsModule } from '@angular/forms';
 import { TwoWayDataBindingComponent } from './contents/two-way-data-binding/two-way-data-binding.component';
-import{ ServersComponent } from './servers/servers.component';
+
 
 
 @NgModule({
@@ -13,7 +13,7 @@ import{ ServersComponent } from './servers/servers.component';
     AppComponent,
     AngularComponent,
     TwoWayDataBindingComponent,
-    ServersComponent
+
   ],
   imports: [
     BrowserModule,
