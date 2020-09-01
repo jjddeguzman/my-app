@@ -6,6 +6,7 @@ import { AngularComponent } from './contents/angular/angular.component';
 import { FormsModule } from '@angular/forms';
 import { TwoWayDataBindingComponent } from './contents/two-way-data-binding/two-way-data-binding.component';
 import { WarningAlertsComponent } from './contents/warning-alerts/warning-alerts.component';
+import { SuccessAlertsComponent } from './contents/success-alerts/success-alerts.component';
 
 
 
@@ -15,6 +16,7 @@ import { WarningAlertsComponent } from './contents/warning-alerts/warning-alerts
     AngularComponent,
     TwoWayDataBindingComponent,
     WarningAlertsComponent,
+    SuccessAlertsComponent,
 
   ],
   imports: [
